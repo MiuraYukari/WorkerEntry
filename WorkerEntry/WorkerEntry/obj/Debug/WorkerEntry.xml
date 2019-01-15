@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WorkerEntry
+</name>
+</assembly>
+<members>
+<member name="T:WorkerEntry.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WorkerEntry.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WorkerEntry.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:WorkerEntry.Menu.EntryPageLinkButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ 従業員登録画面を開く
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WorkerEntry.Menu.ListPageLinkButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ 従業員一覧画面を開く
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WorkerEntry.EntryPage.EntryButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ 登録ボタン
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WorkerEntry.EntryPage.AfterDisplay">
+ <summary>
+ 登録完了後の画面表示処理
+ </summary>
+</member>
+<member name="M:WorkerEntry.EntryPage.StrLastName(System.String)">
+ <summary>
+ 姓入力処理
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WorkerEntry.EntryPage.StrFirstName(System.String)">
+ <summary>
+ 名入力処理
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WorkerEntry.EntryPage.StrBirth(System.String,System.String)">
+ <summary>
+ 生年月日処理
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WorkerEntry.EntryPage.MemberNumber">
+ <summary>
+ 従業員番号採番
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WorkerEntry.EntryPage.Gender">
+ <summary>
+ 性別処理
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WorkerEntry.EntryPage.JpCalComboBox_DropDown(System.Object,System.EventArgs)">
+ <summary>
+ 年号 コンボボックスを開く
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WorkerEntry.EntryPage.ErrorMessage">
+ <summary>
+ エラーメッセージ
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WorkerEntry.EntryPage.strJobComboBox_DropDown(System.Object,System.EventArgs)">
+ <summary>
+ 職種 コンボボックスを開く
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WorkerEntry.EntryPage.JobType">
+ <summary>
+ 職種名
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>
