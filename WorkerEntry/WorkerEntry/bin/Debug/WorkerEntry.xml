@@ -22,14 +22,19 @@ WorkerEntry
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="M:WorkerEntry.Menu.EntryPageLinkButton_Click(System.Object,System.EventArgs)">
+<member name="T:WorkerEntry.MemberProperty">
+ <summary>
+ 従業員情報登録内容保存
+ </summary>
+</member>
+<member name="M:WorkerEntry.TopMenu.EntryPageLinkButton_Click(System.Object,System.EventArgs)">
  <summary>
  従業員登録画面を開く
  </summary>
  <param name="sender"></param>
  <param name="e"></param>
 </member>
-<member name="M:WorkerEntry.Menu.ListPageLinkButton_Click(System.Object,System.EventArgs)">
+<member name="M:WorkerEntry.TopMenu.ListPageLinkButton_Click(System.Object,System.EventArgs)">
  <summary>
  従業員一覧画面を開く
  </summary>
@@ -48,19 +53,19 @@ WorkerEntry
  登録完了後の画面表示処理
  </summary>
 </member>
-<member name="M:WorkerEntry.EntryPage.StrLastName(System.String)">
+<member name="M:WorkerEntry.EntryPage.StrLastName">
  <summary>
  姓入力処理
  </summary>
  <returns></returns>
 </member>
-<member name="M:WorkerEntry.EntryPage.StrFirstName(System.String)">
+<member name="M:WorkerEntry.EntryPage.StrFirstName">
  <summary>
  名入力処理
  </summary>
  <returns></returns>
 </member>
-<member name="M:WorkerEntry.EntryPage.StrBirth(System.String,System.String)">
+<member name="M:WorkerEntry.EntryPage.StrBirth">
  <summary>
  生年月日処理
  </summary>
@@ -91,7 +96,7 @@ WorkerEntry
  </summary>
  <returns></returns>
 </member>
-<member name="M:WorkerEntry.EntryPage.strJobComboBox_DropDown(System.Object,System.EventArgs)">
+<member name="M:WorkerEntry.EntryPage.JobComboBox_DropDown(System.Object,System.EventArgs)">
  <summary>
  職種 コンボボックスを開く
  </summary>

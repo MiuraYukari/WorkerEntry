@@ -1,4 +1,22 @@
-﻿Public Class Menu
+﻿Public Class TopMenu
+
+    '=======メンバ変数=======
+
+    '姓データ
+    Public LastName As String
+    '名データ
+    Public FirstName As String
+    '生年月日データ
+    Public Birth As String
+    '従業員番号データ
+    Public Number As String
+    '性別データ
+    Public GenderResult As String
+    '職種データ
+    Public Job As String
+
+    'MemberProperty型のリスト定義 + インスタンス生成
+    Public MemberProperty As New List(Of MemberProperty)
 
     ''' <summary>
     ''' 従業員登録画面を開く
@@ -11,9 +29,6 @@
         Dim WindowEntryPage As New EntryPage()
         WindowEntryPage.ShowDialog(Me)
         WindowEntryPage.Dispose()
-
-        'メニュー画面を閉じる
-        Me.Close()
 
     End Sub
 
@@ -28,9 +43,6 @@
         Dim WindowEntryPage As New ListPage()
         WindowEntryPage.ShowDialog(Me)
         WindowEntryPage.Dispose()
-
-        'メニュー画面を閉じる
-        Me.Close()
 
     End Sub
 

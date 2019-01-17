@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Menu
+Partial Class TopMenu
     Inherits System.Windows.Forms.Form
 
     'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
@@ -64,7 +64,7 @@ Partial Class Menu
         Me.CsvInputButton.Text = "従業員一覧CSV入力"
         Me.CsvInputButton.UseVisualStyleBackColor = True
         '
-        'Menu
+        'TopMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -73,7 +73,7 @@ Partial Class Menu
         Me.Controls.Add(Me.CsvOutputButton)
         Me.Controls.Add(Me.ListPageLinkButton)
         Me.Controls.Add(Me.EntryPageLinkButton)
-        Me.Name = "Menu"
+        Me.Name = "TopMenu"
         Me.Text = "メニュー画面"
         Me.ResumeLayout(False)
 

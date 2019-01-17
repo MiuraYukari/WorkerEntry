@@ -3,7 +3,6 @@ C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\bin\Debug\WorkerEntry
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\bin\Debug\WorkerEntry.pdb
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\bin\Debug\WorkerEntry.xml
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.vbprojAssemblyReference.cache
-C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.Menu.resources
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.Resources.resources
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.EntryPage.resources
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.vbproj.GenerateResource.cache
@@ -12,3 +11,4 @@ C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.xml
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.pdb
 C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.ListPage.resources
+C:\Users\Yukari Miura\source\repos\WorkerEntry\WorkerEntry\obj\Debug\WorkerEntry.TopMenu.resources
